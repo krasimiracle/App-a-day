@@ -2,8 +2,9 @@
 
 ## Training Grounds for Android Development
 
-##1.TypeText
+## 1.TypeText
 
-#App Description
+# App Description
 Type in the EditText and press the button, the text will appear on the TextView in the middle. 
-![screen](../master/screenshots/1.Type_Text.png)
+
+![screen](../master/screenshots/1.TypeText.png)
