@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="material_keylines">16dp</dimen>
+    <dimen name="article_subheading">16sp</dimen>
+    <dimen name="list_body">14sp</dimen>
 </resources>

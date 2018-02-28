@@ -30,10 +30,12 @@ public class ListContentFragment extends Fragment {
      * Adapter to display recycler view.
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
+        // Number of items in RecyclerView
+        private static final int LENGTH = 20;
 
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return null;
+            return new ViewHolder(LayoutInflater.from(parent.getContext()), parent);
         }
 
         @Override
@@ -43,7 +45,7 @@ public class ListContentFragment extends Fragment {
 
         @Override
         public int getItemCount() {
-            return 0;
+            return LENGTH;
         }
     }
 }
