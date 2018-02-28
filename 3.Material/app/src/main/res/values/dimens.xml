@@ -3,4 +3,6 @@
     <dimen name="material_keylines">16dp</dimen>
     <dimen name="article_subheading">16sp</dimen>
     <dimen name="list_body">14sp</dimen>
+    <dimen name="article_titles">20sp</dimen>
+    <dimen name="tile_padding">8dp</dimen>
 </resources>
