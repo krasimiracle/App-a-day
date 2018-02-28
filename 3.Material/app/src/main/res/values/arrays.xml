@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="places">
+        <item>Kazanluk</item>
+        <item>Varna</item>
+        <item>Sofia</item>
+        <item>Burgas</item>
+        <item>Plovdiv</item>
+    </string-array>
+    <string-array name="place_description">
+       <item>The town is located in the so called Rose Valley</item>
+       <item>The town is located in the so called Rose Valley</item>
+       <item>The town is located in the so called Rose Valley</item>
+       <item>The town is located in the so called Rose Valley</item>
+       <item>The town is located in the so called Rose Valley</item>
+    </string-array>
+    <string-array name="place_details">
+        <item>Very nice details, museums, places, mountains etc.</item>
+        <item>Very nice details, museums, places, mountains etc.</item>
+        <item>Very nice details, museums, places, mountains etc.</item>
+        <item>Very nice details, museums, places, mountains etc.</item>
+        <item>Very nice details, museums, places, mountains etc.</item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
+        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
+        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
+        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
+        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
+    </string-array>
+    <array name="place_photo_rounded">
+       <item>@drawable/a_photo_rounded</item>
+       <item>@drawable/a_photo_rounded</item>
+       <item>@drawable/a_photo_rounded</item>
+       <item>@drawable/a_photo_rounded</item>
+       <item>@drawable/a_photo_rounded</item>
+    </array>
+    <array name="place_photo_normal">
+        <item>@drawable/a_photo_normal</item>
+        <item>@drawable/a_photo_normal</item>
+        <item>@drawable/a_photo_normal</item>
+        <item>@drawable/a_photo_normal</item>
+        <item>@drawable/a_photo_normal</item>
+    </array>
+
+</resources>
