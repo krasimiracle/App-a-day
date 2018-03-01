@@ -1,6 +1,7 @@
 package com.stoyanov5.material;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
@@ -28,7 +29,7 @@ public class TileContentFragment extends android.support.v4.app.Fragment {
         recyclerView.setHasFixedSize(true);
         // Padding for recyclerview items
         int tilePadding = getResources().getDimensionPixelSize(R.dimen.tile_padding);
-        recyclerView.setPadding(tilePadding,tilePadding,tilePadding,tilePadding);
+        recyclerView.setPadding(tilePadding, tilePadding, tilePadding, tilePadding);
         recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 2));
 
         return recyclerView;
@@ -42,6 +43,15 @@ public class TileContentFragment extends android.support.v4.app.Fragment {
             super(inflater.inflate(R.layout.item_tile, parent, false));
             photo = itemView.findViewById(R.id.tile_image);
             name = itemView.findViewById(R.id.tile_title);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Context context = view.getContext();
+                    Intent intent = new Intent(context, DetailActivity.class);
+                    intent.putExtra(DetailActivity.EXTRA_POSITION, getAdapterPosition());
+                    context.startActivity(intent);
+                }
+            });
         }
     }
 
@@ -54,7 +64,7 @@ public class TileContentFragment extends android.support.v4.app.Fragment {
         public ContentAdapter(Context context) {
             Resources resources = context.getResources();
             places = resources.getStringArray(R.array.place_locations);
-            TypedArray typedArray  = resources.obtainTypedArray(R.array.place_photo_normal);
+            TypedArray typedArray = resources.obtainTypedArray(R.array.place_photo_normal);
             photos = new Drawable[typedArray.length()];
             for (int i = 0; i < photos.length; i++) {
                 photos[i] = typedArray.getDrawable(i);
