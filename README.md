@@ -18,9 +18,8 @@ Press observe and a RxJava observable will start updating a timer.
 
 Several material design concepts in one app. Collapsing Toolbar in DetailActivity.
 
-<p float="left">
-  <img src="/1.ListView.png" width="100" />
-  <img src="/2.TileView.png" width="100" /> 
-  <img src="/3.CardView.png" width="100" />  
-  <img src="/4.DetailView.png" width="100" />
-</p>
+![screen](../master/screenshots/3.MaterialPhotos/1.ListView.png)
+![screen](../master/screenshots/3.MaterialPhotos/2.TileView.png)
+![screen](../master/screenshots/3.MaterialPhotos/3.CardView.png)
+![screen](../master/screenshots/3.MaterialPhotos/4.DetailView.png)
+
