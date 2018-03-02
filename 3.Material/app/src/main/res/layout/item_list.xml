@@ -5,18 +5,30 @@
     android:layout_height="wrap_content"
     android:padding="@dimen/material_keylines">
 
-    <ImageView
-        android:id="@+id/list_item_photo"
+    <FrameLayout
+        android:id="@+id/list_photo_frame"
         android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:scaleType="centerCrop" />
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/list_item_photo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/circle_crop"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_crop" />
+    </FrameLayout>
 
     <TextView
         android:id="@+id/list_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/material_keylines"
-        android:layout_toEndOf="@id/list_item_photo"
+        android:layout_toEndOf="@id/list_photo_frame"
         android:textAppearance="?attr/textAppearanceListItem"
         android:textSize="@dimen/article_subheading" />
 
@@ -26,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/list_title"
         android:layout_marginStart="@dimen/material_keylines"
-        android:layout_toEndOf="@id/list_item_photo"
+        android:layout_toEndOf="@id/list_photo_frame"
         android:ellipsize="end"
         android:maxLines="1"
         android:textAppearance="?attr/textAppearanceListItem"

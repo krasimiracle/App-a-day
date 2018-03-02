@@ -32,7 +32,7 @@
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax"
-                tools:background="@drawable/a_photo_normal" />
+                tools:background="@drawable/thracian_tomb_photo" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar_detail"

@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="places">
-        <item>Kazanluk</item>
-        <item>Varna</item>
-        <item>Sofia</item>
-        <item>Burgas</item>
-        <item>Plovdiv</item>
+        <item>Thracian Tomb</item>
+        <item>History Museum Iskra</item>
+        <item>Rose Museum</item>
+        <item>Chudomir Museum</item>
+        <item>Nenko Balkanski House</item>
     </string-array>
     <string-array name="place_description">
-       <item>The town is located in the so called Rose Valley</item>
-       <item>The town is located in the so called Rose Valley</item>
-       <item>The town is located in the so called Rose Valley</item>
-       <item>The town is located in the so called Rose Valley</item>
-       <item>The town is located in the so called Rose Valley</item>
+        <item>The Thracian Tomb of Kazanluk is a vaulted-brickwork "beehive" (tholos) tomb near the town of Kazanluk in central Bulgaria.</item>
+        <item>Museum of History Iskra Founded in 1901 by the patriotic citizen of Kazanluk Peter Topuzov. The historical museum is one of the oldest, richest and most famous museums in Bulgaria</item>
+        <item>The only Museum of Roses of its kind - located in the Town of Roses – Kazanluk</item>
+        <item>The Chudomir Museum of Literature and Art is home to all Chudomir's works and is part of the 100 National Tourist Sights.</item>
+        <item>After the death of Professor Nenko Balkanski in 1977, Kazanluk Municipality restored his native house in order to commemorate his great contribution to the artistic culture of Bulgaria</item>
     </string-array>
     <string-array name="place_details">
-        <item>Very nice details, museums, places, mountains etc.</item>
-        <item>Very nice details, museums, places, mountains etc.</item>
-        <item>Very nice details, museums, places, mountains etc.</item>
-        <item>Very nice details, museums, places, mountains etc.</item>
-        <item>Very nice details, museums, places, mountains etc.</item>
+        <item>The tomb is part of a large Thracian necropolis. It comprises a narrow corridor and a round burial chamber, both decorated with murals representing a Thracian couple at a ritual funeral feast. The monument dates back to the 4th century BCE and has been on the UNESCO protected World Heritage Site list since 1979. The murals are memorable for the splendid horses and for a gesture of farewell, in which the seated couple grasp each other's wrists in a moment of tenderness and equality (according to Lyudmila Zhivkova—a view that is not shared by all specialists). The paintings are Bulgaria's best-preserved artistic masterpieces from the Hellenistic period [1].
+
+The tomb is situated near the ancient Thracian capital of Seuthopolis in a region where more than a thousand tombs of kings and members of the Thracian aristocracy can be found.
+
+To preserve the sensitive paintings, the tomb is not open to the public; a full-size replica was built nearby.[2]
+
+The seated woman of the murals is depicted on the reverse of the Bulgarian 50 stotinki coin issued in 2005.[3]
+
+</item>
+        <item>Founded in 1901 by the patriotic citizen of Kazanlak Peter Topuzov, the historical museum Iskra is one of the oldest, richest and most famous museums in Bulgaria. Inside, one can find over 70 000 original exhibits depicting the rich material and spiritual culture of the Kazanlak region.
+
+One can visit the constant exhibitions at the Archeology, Revival, New History, Ethnography and Modern History departments. Tourists can also be interested in the collections of bone sickles (the biggest collection in South-Eastern Europe), Thracian treasuries, medieval ceramics, cold steel and firearms, jewelry and dresses from the past lifestyles of the citizens of Kazanlak.
+
+Inside the treasury hall one can find the newest golden, silver and bronze findings from the Thracian temples in the region. These include the unique golden wreath that belonged to Seutus III, his helmet and knee-pads, the whole golden and silver horse ammunition, together with a rare collection of coins and other objects from the Thracian Age.
+
+The museum keeps, examines and popularizes the entire historical and cultural inheritance of the Kazanlak region.
+
+</item>
+        <item>The Museum of Roses has a rich collection of objects, pictures and documents that reveal the history of Bulgarian oleaginous-roses growing. These exhibits are located in three halls. Inside the museum one can see instruments used for processing rose gardens, utensils for storage and export of rose oil and rose water. There is also a reproduction of a rose-oil depot and of the first rose-oil examination laboratory established in 1907. Hristo Yaramov is a chemistry teacher in the Kazanlak school. The laboratory was aimed at analyzing the rose oil and started issuing certificates for the purity of oil that was to be exported abroad. The period back then was hard for Bulgarian rose-growing as the so called ‘tereshe’, or fake rose oil, emerged. Threatened by deterioration of the Bulgarian rose oil’s reputation as the world’s best, Hristo Yaramov’s laboratory was a successful attempt to spoil this wrongful practice.
+        </item>
+        <item>The Museum was open in 1979. It includes:The modest Chudomir home with its unique atmosphere; The additionally built structure where are displayed: Documentary – art exhibition situated in three rooms {all area combined are about 300 square meters} with original manuscripts, photos, audiotapes, documents, belongings and objects, with leading texts and appraisals from Bulgarian writers, artists and experts; A small conference hall, well appointed with multimedia equipment. Here is given opportunity for visiting exhibitions, literary meetings, recitals, movie projections, devoted to eminent Bulgarian experts in art, speech and fine arts; The Museum is a municipal cultural institute, responsible for preservation, research and popularization of the exceptionally valuable Chudomir s art heritage. Under the Museum s collection are more than 15000 of his original manuscripts, paintings, sketches, letters, books and personal belongings; Here are shown also paintings of his wife – Mara Chorbadjiyska, a talented artist, charming person, a good teacher and good companion to the enchanter of the pen and the brush. This is the only Literature and Art Museum in Bulgaria. It is enlisted in the movement – “Hundred National beauty spots”.
+
+</item>
+        <item>After the death of Professor Nenko Balkanski in 1977, Kazanlak Municipality restored his native house in order to commemorate his great contribution to the artistic culture of Bulgaria. In 1981 his wife, Liliana Balkanska, donated to the Art Gallery 267 paintings and 1271 graphics and drawings of her husband. This was followed by the building of the exhibition hall in the restored house and in 1991 the native house exhibition was opened for visit. The exhibition contains selected works and is located in three rooms of the house, among which there are 13 works related to the house and the family, and on the ground floor there are 38 drawings and graphics. In the exhibition hall there are 55 works of Nenko Balkanski from different artistic periods. The native house of Prof. Nenko Balkanski is part of the Kazanlak Art Gallery.
+</item>
     </string-array>
     <string-array name="place_locations">
-        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
-        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
-        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
-        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
-        <item>gen. Gurko 7, Kazanlak, Bulgaria</item>
+        <item>E85 Str. 6, Kazanluk, Bulgaria</item>
+        <item>P.R. Slaveikov Str. 8, Kazanluk, Bulgaria</item>
+        <item>Voynishka Str. 1, Rosarium Park, Kazanluk 6100, Bulgaria</item>
+        <item>Trapezitsa Str. 6, Kazanluk, Bulgaria</item>
+        <item>gen. Radetski Str. 17, Kazanluk, Bulgaria</item>
     </string-array>
     <array name="place_photo_rounded">
-       <item>@drawable/a_photo_rounded</item>
-       <item>@drawable/a_photo_rounded</item>
-       <item>@drawable/a_photo_rounded</item>
-       <item>@drawable/a_photo_rounded</item>
-       <item>@drawable/a_photo_rounded</item>
+        <item>@drawable/nenko_balkanski_photo</item>
+        <item>@drawable/nenko_balkanski_photo</item>
+        <item>@drawable/nenko_balkanski_photo</item>
+        <item>@drawable/nenko_balkanski_photo</item>
+        <item>@drawable/nenko_balkanski_photo</item>
     </array>
     <array name="place_photo_normal">
-        <item>@drawable/a_photo_normal</item>
-        <item>@drawable/a_photo_normal</item>
-        <item>@drawable/a_photo_normal</item>
-        <item>@drawable/a_photo_normal</item>
-        <item>@drawable/a_photo_normal</item>
+        <item>@drawable/thracian_tomb_photo</item>
+        <item>@drawable/iskra_museum_photo</item>
+        <item>@drawable/rose_museum_photo</item>
+        <item>@drawable/chudomir_photo</item>
+        <item>@drawable/nenko_balkanski_photo</item>
     </array>
 
 </resources>

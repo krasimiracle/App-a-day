@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            tools:src="@drawable/a_photo_normal" />
+            tools:src="@drawable/thracian_tomb_photo" />
 
         <TextView
             android:id="@+id/card_title"
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/card_text"
-            android:text="@string/press"
+            android:text="@string/directions"
             android:textColor="?attr/colorPrimary" />
 
         <ImageButton
