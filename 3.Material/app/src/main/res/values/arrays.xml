@@ -49,10 +49,10 @@ The museum keeps, examines and popularizes the entire historical and cultural in
         <item>gen. Radetski Str. 17, Kazanluk, Bulgaria</item>
     </string-array>
     <array name="place_photo_rounded">
-        <item>@drawable/nenko_balkanski_photo</item>
-        <item>@drawable/nenko_balkanski_photo</item>
-        <item>@drawable/nenko_balkanski_photo</item>
-        <item>@drawable/nenko_balkanski_photo</item>
+        <item>@drawable/thracian_tomb_photo</item>
+        <item>@drawable/iskra_museum_photo</item>
+        <item>@drawable/rose_museum_photo</item>
+        <item>@drawable/chudomir_photo</item>
         <item>@drawable/nenko_balkanski_photo</item>
     </array>
     <array name="place_photo_normal">

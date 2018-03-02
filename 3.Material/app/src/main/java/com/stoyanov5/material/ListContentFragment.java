@@ -28,6 +28,7 @@ public class ListContentFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) inflater.inflate(R.layout.recycler_view, container, false);
         ContentAdapter contentAdapter = new ContentAdapter(recyclerView.getContext());
         recyclerView.setAdapter(contentAdapter);
+        recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         return recyclerView;
     }
