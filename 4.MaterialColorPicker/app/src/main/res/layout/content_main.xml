@@ -81,6 +81,162 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup">
 
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:orientation="horizontal"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/redPalette"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/material_red500"
+                    android:text="Red"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/pinkPalette"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_pink500"
+                    android:text="Pink"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/purplePalette"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_purple500"
+                    android:text="Purple"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/deeppurplePalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_deeppurple500"
+                    android:text="Deep Purple"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/indigoPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_indigo500"
+                    android:text="Indigo"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/bluePalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_blue500"
+                    android:text="Blue" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/lightbluePalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/material_lightblue500"
+                    android:text="Light Blue"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/cyanPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/material_cyan500"
+                    android:text="Cyan"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/tealPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/material_teal500"
+                    android:text="Teal"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/greenPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_green500"
+                    android:text="Green"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/lightgreenPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_lightgreen500"
+                    android:text="Light Green"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/limePalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_lime500"
+                    android:text="Lime"
+                    android:textSize="12sp" />
+
+            </TableRow>
+        </TableLayout>
     </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
