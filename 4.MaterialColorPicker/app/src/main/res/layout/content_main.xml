@@ -100,8 +100,7 @@
                     android:layout_marginEnd="16dp"
                     android:backgroundTint="@color/material_red500"
                     android:text="Red"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
+                    android:textSize="12sp" />
 
                 <Button
                     android:id="@+id/pinkPalette"
@@ -158,15 +157,16 @@
                     android:layout_marginEnd="16dp"
 
                     android:backgroundTint="@color/material_blue500"
-                    android:text="Blue" />
+                    android:text="Blue"
+                    android:textSize="12sp" />
 
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
                 android:paddingTop="16dp">
 
                 <Button
@@ -235,6 +235,122 @@
                     android:text="Lime"
                     android:textSize="12sp" />
 
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/yellowPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/material_yellow500"
+                    android:text="Yellow"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/amberPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_amber500"
+                    android:text="Amber"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/orangePalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_orange500"
+                    android:text="Orange"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/deeporangePalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_deeporange500"
+                    android:text="Deep Orange"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/brownPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_brown500"
+                    android:text="Brown"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/greyPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_grey500"
+                    android:text="Grey"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/bluegreyPalette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_bluegrey500"
+                    android:text="Blue Grey"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/blackColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_black"
+                    android:text="Black"
+                    android:textColor="@color/material_white500"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/whiteColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+
+                    android:backgroundTint="@color/material_white500"
+                    android:text="White"
+                    android:textSize="12sp" />
             </TableRow>
         </TableLayout>
     </FrameLayout>

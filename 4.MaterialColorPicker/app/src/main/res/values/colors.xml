@@ -19,5 +19,14 @@
     <color name="material_green500">#4CAF50</color>
     <color name="material_lightgreen500">#8BC34A</color>
     <color name="material_lime500">#CDDC39</color>
+    <color name="material_yellow500">#FFEB3B</color>
+    <color name="material_amber500">#FFC107</color>
+    <color name="material_orange500">#ff9800</color>
+    <color name="material_deeporange500">#FF5722</color>
+    <color name="material_brown500">#795548</color>
+    <color name="material_grey500">#9E9E9E</color>
+    <color name="material_bluegrey500">#607D8B</color>
+    <color name="material_black">#000000</color>
+    <color name="material_white500">#FFFFFF</color>
 
 </resources>
