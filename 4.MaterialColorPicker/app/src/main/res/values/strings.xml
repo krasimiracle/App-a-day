@@ -5,4 +5,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="cyan200">Cyan200</string>
+    <string name="pick_a_color_palette">Pick a Color Palette</string>
 </resources>
