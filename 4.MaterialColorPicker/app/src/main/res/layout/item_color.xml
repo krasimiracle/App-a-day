@@ -12,6 +12,7 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/color_rank"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
@@ -20,6 +21,7 @@
             tools:text="500" />
 
         <TextView
+            android:id="@+id/color_hex"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
