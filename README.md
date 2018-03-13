@@ -8,6 +8,8 @@ Type in the EditText and press the button, the text will appear on the TextView 
 
 ![screen](../master/screenshots/1.TypeText.png)
 
+![](../master/screenshots/1.TypeText.png =200x200)
+
 # 2.RxJavaTime
 
 Press observe and a RxJava observable will start updating a timer. 
