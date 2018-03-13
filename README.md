@@ -29,4 +29,4 @@ Material design color picker.
 
 ![screen](../master/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png)
 
-<img src="App-a-day/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png" width="200px" height ="200px">
+<img src="file://App-a-day/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png" width="200px" height ="200px">
