@@ -23,3 +23,10 @@ Several material design concepts in one app. Collapsing Toolbar in DetailActivit
 ![screen](../master/screenshots/3.MaterialPhotos/3.CardView.png)
 ![screen](../master/screenshots/3.MaterialPhotos/4.DetailView.png)
 
+# 4.MaterialColorPicker
+
+Material design color picker. 
+
+![screen](../master/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png)
+
+<img src="App-a-day/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png" width="200px" height ="200px">
