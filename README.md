@@ -6,7 +6,7 @@
 
 Type in the EditText and press the button, the text will appear on the TextView in the middle. 
 
-![screen](../master/screenshots/1.TypeText.png)
+![screen](../master/screenshots/1.TypeText.png){:height="200px" width="200px"}.
 
 ![](../master/screenshots/1.TypeText.png =200x200)
 
@@ -31,4 +31,4 @@ Material design color picker.
 
 ![screen](../master/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png)
 
-<img src="file://App-a-day/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png" width="200px" height ="200px">
+<img src="file://App-a-day/screenshots/4.MaterialColorPickerPhotos/1.ColorSelectView.png" width="200px" height ="200px" alt="ColorSelectView" class="inline">
