@@ -22,11 +22,11 @@ Several material design concepts in one app. Collapsing Toolbar in DetailActivit
 <img src="https://github.com/kstoyanov5/App-a-day/blob/master/screenshots/3.MaterialPhotos/1.ListView.png" alt="ListView" class="inline" width="200px" height ="360px" align="left">
 <img src="https://github.com/kstoyanov5/App-a-day/blob/master/screenshots/3.MaterialPhotos/2.TileView.png" alt="TileView" class="inline" width="200px" height ="360px" align="left">
 <img src="https://github.com/kstoyanov5/App-a-day/blob/master/screenshots/3.MaterialPhotos/3.CardView.png" alt="CardView" class="inline" width="200px" height ="360px" align="left"> 
-<br/><br/><br/><br/><br/>
 
 <img src="https://github.com/kstoyanov5/App-a-day/blob/master/screenshots/3.MaterialPhotos/4.DetailView.png" alt="DetailView" class="inline" width="200px" height ="360px" align="left">
 <img src="https://github.com/kstoyanov5/App-a-day/blob/master/screenshots/3.MaterialPhotos/5.DetailViewAnimation.gif" alt="DetailViewAnimation" class="inline" width="200px" height ="360px" align="left">  
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 
 
 # 4.MaterialColorPicker
