@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 /**
@@ -23,12 +24,12 @@ public class PaletteDetailFragment extends Fragment {
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView colorRankText;
+        public RadioButton colorRankRadioButton;
         public TextView colorHexText;
 
         public ViewHolder(LayoutInflater inflater, ViewGroup parent) {
             super(inflater.inflate(R.layout.item_color,parent, false));
-            colorRankText = itemView.findViewById(R.id.color_rank);
+            colorRankRadioButton = itemView.findViewById(R.id.color_rank);
             colorHexText = itemView.findViewById(R.id.color_hex);
 
             itemView.setOnClickListener(new View.OnClickListener() {
