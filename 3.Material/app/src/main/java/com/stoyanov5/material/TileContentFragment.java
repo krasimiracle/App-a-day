@@ -15,6 +15,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 /**
  * Created by B3f0r on 27-Feb-18.
  */
@@ -57,11 +59,14 @@ public class TileContentFragment extends android.support.v4.app.Fragment {
 
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
 
+        private Context context;
+
         public static final int LENGTH = 20;
         private final String[] places;
         private final Drawable[] photos;
 
         public ContentAdapter(Context context) {
+            this.context = context;
             Resources resources = context.getResources();
             places = resources.getStringArray(R.array.place_locations);
             TypedArray typedArray = resources.obtainTypedArray(R.array.place_photo_normal);
@@ -79,7 +84,7 @@ public class TileContentFragment extends android.support.v4.app.Fragment {
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
-            holder.photo.setImageDrawable(photos[position % photos.length]);
+            Glide.with(context).load(photos[position % photos.length]).into(holder.photo);
             holder.name.setText(places[position % places.length]);
         }
 

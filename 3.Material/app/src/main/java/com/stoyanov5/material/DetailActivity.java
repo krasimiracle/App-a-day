@@ -10,6 +10,8 @@ import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 /**
  * Created by B3f0r on 01-Mar-18.
  */
@@ -44,7 +46,7 @@ public class DetailActivity extends AppCompatActivity {
 
         TypedArray placePhotos = resources.obtainTypedArray(R.array.place_photo_normal);
         ImageView placePhoto = findViewById(R.id.collapsing_image);
-        placePhoto.setImageDrawable(placePhotos.getDrawable(position % placePhotos.length()));
+        Glide.with(this).load(placePhotos.getResourceId(position % placePhotos.length(), 0)).into(placePhoto);
 
         placePhotos.recycle();
     }

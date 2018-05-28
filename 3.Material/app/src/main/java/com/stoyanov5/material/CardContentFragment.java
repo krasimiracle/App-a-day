@@ -17,6 +17,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 /**
  * Created by B3f0r on 27-Feb-18.
  */
@@ -64,12 +66,16 @@ public class CardContentFragment extends android.support.v4.app.Fragment {
     }
 
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
+
+        private Context context;
+
         public static int LENGTH = 20;
         private final String[] titles;
         private final String[] descriptions;
         private final Drawable[] photos;
 
         public ContentAdapter(Context context) {
+            this.context = context;
             Resources resources = context.getResources();
             titles = resources.getStringArray(R.array.place_locations);
             descriptions = resources.getStringArray(R.array.place_description);
@@ -92,7 +98,7 @@ public class CardContentFragment extends android.support.v4.app.Fragment {
         public void onBindViewHolder(ViewHolder holder, int position) {
             holder.cardTitle.setText(titles[position % titles.length]);
             holder.cardText.setText(descriptions[position % descriptions.length]);
-            holder.cardImage.setImageDrawable(photos[position % photos.length]);
+            Glide.with(context).load(photos[position % photos.length]).into(holder.cardImage);
         }
 
         @Override

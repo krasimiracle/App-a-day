@@ -17,6 +17,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 /**
  * Created by B3f0r on 27-Feb-18.
  */
@@ -59,6 +61,9 @@ public class ListContentFragment extends Fragment {
      * Adapter to display recycler view.
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
+
+        private Context context;
+
         // Number of items in RecyclerView
         private static final int LENGTH = 20;
         private final Drawable[] photos;
@@ -66,6 +71,7 @@ public class ListContentFragment extends Fragment {
         private final String[] descriptions;
 
         public ContentAdapter(Context context) {
+            this.context = context;
             Resources resources = context.getResources();
             TypedArray typedArray = resources.obtainTypedArray(R.array.place_photo_rounded);
             photos = new Drawable[typedArray.length()];
@@ -85,7 +91,7 @@ public class ListContentFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
-            holder.photo.setImageDrawable(photos[position % photos.length]);
+            Glide.with(context).load(photos[position % photos.length]).into(holder.photo);
             holder.title.setText(titles[position % titles.length]);
             holder.description.setText(descriptions[position % descriptions.length]);
         }
